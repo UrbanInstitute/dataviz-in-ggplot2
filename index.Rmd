@@ -1,0 +1,60 @@
+--- 
+title: "Urban Branded DataViz using R's ggplot2"
+author: "Aaron Williams & Alex Engler - The Urban Institute"
+date: "February 2, 2017"
+site: bookdown::bookdown_site
+output: bookdown::gitbook
+bookdown::pdf_book:
+  keep_tex: yes
+documentclass: book
+link-citations: yes
+github-repo: urbaninstitute/dataviz-in-ggplot2
+bookdown::gitbook:
+  config:
+    toc:
+      collapse: subsection
+      scroll_highlight: true
+      before: null
+      after: null
+    toolbar:
+      position: fixed
+    edit:
+      link: null
+      text: null
+    download: null
+    search: true
+    fontsettings:
+      theme: white
+      family: sans
+      size: 2
+    sharing:
+      facebook: yes
+      twitter: yes
+      google: no
+      weibo: no
+      instapper: no
+      vk: no
+      all: ['facebook', 'google', 'twitter', 'weibo', 'instapaper']
+---
+
+# DataViz in ggplot2 {-}
+
+This document provides a brief introduction to, and series of examples of, using ggplot2 with the [Urban Institute ggplot2 theme](https://github.com/UrbanInstitute/urban_R_theme) created by Ben Chartoff with contributions from Aaron Williams. Before you continue, you should follow the link above to the GitHub page for the ggplot2 theme and read the instructions and caveats written there.
+
+The tabs on the left side of this page will take you to a guide to creating various graph types using ggplot2.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
