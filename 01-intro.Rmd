@@ -1,12 +1,14 @@
 # - Line Charts {#line}
 
-
+Load the Urban Institute ggplot2 Theme:
 ```{r}
 source('https://raw.githubusercontent.com/UrbanInstitute/urban_R_theme/master/urban_ggplot_theme.R')
 ```
 
+
+Run ggplot2 on the example `economics_long` data, definining three aesthetics for the x-axis, y-axis, and color. Then add the line geometry. 
 ```{r}
-ggplot(economics_long, aes(date, value01, colour = variable))
+ggplot(economics_long, aes(x=date, y=value01, colour = variable))
 + geom_line()
 + scale_y_continuous(expand = c(0,0))
 + ggtitle('Example line chart')

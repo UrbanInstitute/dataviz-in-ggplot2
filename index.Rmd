@@ -38,9 +38,11 @@ bookdown::gitbook:
 ---
 
 library('extrafont')
-font_import()
+font_import(paths="Lato", prompt=FALSE) 
 loadfonts()
 
+
+ggplot(iris, aes(Sepal.Width, Sepal.Length)) + geom_text(aes(label="Help",family="Helvetica"))
 
 # DataViz in ggplot2 {-}
 
