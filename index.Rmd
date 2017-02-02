@@ -37,6 +37,11 @@ bookdown::gitbook:
       all: ['facebook', 'google', 'twitter', 'weibo', 'instapaper']
 ---
 
+library('extrafont')
+font_import()
+loadfonts()
+
+
 # DataViz in ggplot2 {-}
 
 This document provides a brief introduction to, and series of examples of, using ggplot2 with the [Urban Institute ggplot2 theme](https://github.com/UrbanInstitute/urban_R_theme) created by Ben Chartoff with contributions from Aaron Williams. Before you continue, you should follow the link above to the GitHub page for the ggplot2 theme and read the instructions and caveats written there.
